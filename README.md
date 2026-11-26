@@ -3,6 +3,7 @@
 **Stephen Chung and Wenyu Du · DualverseAI**
 
 [Read the paper on arXiv](https://arxiv.org/abs/2611.23386).
+Trained weights (Chorus and the matching model without tables, three seeds each): https://huggingface.co/stephenchungmh/chorus
 
 Chorus looks up token and n-gram embeddings once, then reuses them at the input
 and intermediate layers with layer-specific adaptation. Sharing the tables and
